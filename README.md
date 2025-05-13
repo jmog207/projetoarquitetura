@@ -12,14 +12,4 @@ Front disponível na http://localhost:5173/
 
 Pastas 
 
-/projeto_arquitetura
-│
-├── backend/
-│   ├── config/           # Configuração do banco
-│   ├── controllers/      # Lógica dos endpoints
-│   ├── models/           # Modelos Sequelize
-│   └── routers/          # Rotas da API
-│
-└── frontend/
-    ├── componente/       # Componentes React (Login, Header, ProdutoDetalhe, etc.)
-    └── imagens/          # Imagens locais dos produtos
+<pre> ```text /projeto_arquitetura │ ├── backend/ │ ├── config/ # Configuração do banco │ ├── controllers/ # Lógica dos endpoints │ ├── models/ # Modelos Sequelize │ └── routers/ # Rotas da API │ └── frontend/ ├── componente/ # Componentes React (Login, Header, ProdutoDetalhe, etc.) └── imagens/ # Imagens locais dos produtos ``` </pre>
