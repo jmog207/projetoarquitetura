@@ -40,22 +40,19 @@ function ProdutoDetalhe() {
     }
     
     setErro('');
-    // Simulando cálculo de frete com base no CEP
-    const valorFrete = (parseInt(cep.replace('-', '')) % 100) + 10; // Exemplo de cálculo
+    const valorFrete = (parseInt(cep.replace('-', '')) % 100) + 10; 
     setFrete(valorFrete.toFixed(2));
   };
 
   return (
     <div className="produto-detalhe">
       <div className="imagem-detalhe">
-        {/* Ajustado para usar a imagem do produto */}
         <img src={produto.imagem || "/src/imagens/produto2.jpg"} alt={produto.nome} />
       </div>
       <div className="info-detalhe">
         <h2>{produto.nome}</h2>
         <p className="descricao">{produto.descricao}</p>
 
-        {/* Tamanho com opção de seleção */}
         <div className="tamanho">
           <label htmlFor="tamanho">Tamanho: </label>
           <select
@@ -89,10 +86,9 @@ function ProdutoDetalhe() {
           <button onClick={calcularFrete}>Calcular Frete</button>
         </div>
 
-        {/* Exibindo mensagem de erro, se houver */}
+
         {erro && <p className="erro">{erro}</p>}
 
-        {/* Exibindo o valor do frete calculado */}
         {frete && <p className="frete">Frete: R$ {frete}</p>}
 
         <button className="btn-comprar">Comprar</button>

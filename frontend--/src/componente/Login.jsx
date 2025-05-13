@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importa o hook
+import { useNavigate } from 'react-router-dom'; 
 import './Login.css';
 
 function Login({ aoLogar }) {
   const [login, setLogin] = useState('');
   const [senha, setSenha] = useState('');
   const [mensagem, setMensagem] = useState('');
-  const navigate = useNavigate(); // Inicializa o hook
+  const navigate = useNavigate(); 
 
   const handleLogin = async (e) => {
     e.preventDefault();

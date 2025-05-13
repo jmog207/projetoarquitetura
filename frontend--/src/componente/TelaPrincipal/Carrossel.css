@@ -3,8 +3,8 @@
   height: 800px;              /* Altura fixa para o carrossel */
   margin: 900px auto 0;        /* Centraliza o carrossel e deixa espaço para o header */
   overflow: hidden;
-  border-radius: 10px;        /* Opcional: bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+  border-radius: 10px;        
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .slick-slide img {

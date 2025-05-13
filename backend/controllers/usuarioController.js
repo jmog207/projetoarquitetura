@@ -12,7 +12,6 @@ module.exports = {
         return res.status(401).json({ mensagem: 'Login ou senha inválidos' });
       }
 
-      // Em produção, aqui você retornaria um JWT
       return res.json({ mensagem: 'Login realizado com sucesso', usuario });
     } catch (error) {
       return res.status(500).json({ erro: 'Erro no servidor' });
