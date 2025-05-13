@@ -7,6 +7,6 @@ const sequelize = new Sequelize('projetoAS', '--USUARIO--', '--SENHA--', {
 
 e executar normalmenet com o node app.js
 
-Front disponível na http://localhost:5173/
+Front disponível na http://localhost:5173
 
 
