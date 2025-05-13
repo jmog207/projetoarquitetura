@@ -1,0 +1,33 @@
+/* src/App.css */
+
+/* Altere a importação para os caminhos diretos */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.divisoria-produtos {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.divisoria-produtos h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.divisoria-produtos hr {
+  width: 200px;
+  height: 2px;
+  background-color: #004080;
+  border: none;
+  margin: 0 auto;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

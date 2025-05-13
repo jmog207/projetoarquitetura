@@ -1,0 +1,141 @@
+.produto-detalhe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 5vw;
+  align-items: flex-start;
+}
+
+.imagem-detalhe img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-detalhe {
+  max-width: 500px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-detalhe h2 {
+  margin-bottom: 10px;
+}
+
+.descricao {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.tamanho {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tamanho select {
+  padding: 6px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333; 
+  cursor: pointer;
+  appearance: none; 
+  -webkit-appearance: none; 
+}
+
+.tamanho select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.tamanho option {
+  color: #333; 
+  background-color: #fff; 
+}
+
+.preco {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.avaliacao {
+  color: orange;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.btn-comprar {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-comprar:hover {
+  background-color: #0056b3;
+}
+
+.campo-cep {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.campo-cep input {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  background-color: #fff; 
+  color: #000; 
+}
+
+.campo-cep button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.campo-cep button:hover {
+  background-color: #0056b3;
+}
+
+.erro {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.frete {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
